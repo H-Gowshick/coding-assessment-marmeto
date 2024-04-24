@@ -11,7 +11,6 @@ I have developed a project with the objective of fetching product information fo
 
 project-root/
 |--assets/vectors/imgages
-
 |-- index.html
 |-- style.css
 |-- script.js
