@@ -51,6 +51,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const categoryButtons = document.querySelectorAll('.choices-btn-group button');
     categoryButtons.forEach(button => {
+        // Highlight the selected category button when the page loads
+        if (button.textContent.trim() === currentCategory) {
+            button.classList.add('selected');
+        }
         button.addEventListener('click', function () {
             const isSelected = this.classList.contains('selected');
 
